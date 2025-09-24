@@ -67,4 +67,5 @@ jobs:
         with:
           tag: ${{ env.VIM_VERSION }}
           artifacts: 'vim-*'
+          allowUpdates: true
           artifactErrorsFailBuild: false
